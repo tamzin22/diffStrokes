@@ -2,18 +2,26 @@
   <div id="app" class="container-fluid">
   <div container p-3 my-3 border>
   <home />
+  <about/>
+  <services />
     </div>
    </div>
 </template>
 
 <script>
 import home from './components/home.vue'
+import about from './components/about.vue'
+import services from './components/services.vue'
+
+
 
 
 export default {
   name: 'App',
   components: {
-    home
+    home,
+    about,
+    services
   }
 }
 </script>
