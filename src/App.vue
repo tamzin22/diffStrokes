@@ -3,6 +3,7 @@
   <div container p-3 my-3 border>
   <home />
   <about/>
+  <description />
   <services />
     </div>
    </div>
@@ -12,6 +13,7 @@
 import home from './components/home.vue'
 import about from './components/about.vue'
 import services from './components/services.vue'
+import description from './components/description.vue'
 
 
 
@@ -21,7 +23,9 @@ export default {
   components: {
     home,
     about,
-    services
+    services,
+    description,
+    
   }
 }
 </script>

@@ -10,12 +10,7 @@
 <div class="login"><b-nav-item href="#6">Login</b-nav-item></div>
 </b-nav>
    <img alt="Vue logo" src="../assets/cars.png" class="img-thumbnail" style="width: 100%;"> 
-   <h1>About Diff Strokes</h1>
-<p>With over 30 years of experience in servicing the Kenyan
-transport, we bring to you a totally new experience in exploring
-the Kenyan Safaris.
-Our vehicles are designed to give you a comfortable journey,
-while still getting the experience of the Kenyan safaris.</p>
+
     </div>
 </template>
 
