@@ -57,4 +57,5 @@ import default{
     width: 100%;
     left: 0;
 }
+
 </style>

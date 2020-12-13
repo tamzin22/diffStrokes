@@ -1,30 +1,27 @@
 <template>
-    <div>
-<b-container fluid class="p-4">
+    <div class="container-fluid">
    <h1 align="center">Our Services</h1>
-<b-row>
-  <div col-md-12>
-    <b-col>
-  <figure class="figure">
-    <b-img  src="../assets/twocars.png" style="width: 30%; height :20%" class="pull-left" alt=""></b-img>
+  <div class="row">
+  <div class="column">
+  <figure class="figure ">
+    <b-img  src="../assets/twocars.png" style="width: 150%; height :20%;" ></b-img>
      <figcaption class="figure-caption">Safari Car Hire</figcaption>
-     <button type="button" class="btn btn-light">Book Now</button>
-    </figure>
+     <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Book Now</a>
+    </figure></div>
+  <div class="column"> 
   <figure>
-    <b-img  src="../assets/wedcar.png" style="width: 30%; height :20%"></b-img>
+    <b-img  src="../assets/wedcar.png" style="width: 150%; height :20%"></b-img>
     <figcaption class="figure-caption">Luxury Car Hire</figcaption>
-    <button type="button" class="btn btn-light">Book Now</button>
-    </figure>
+    <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Book Now</a>
+    </figure></div>
+    <div class="column">
     <figure>
-  <b-img  src="../assets/van.png" style="width: 30%; height :20%"></b-img>
+  <b-img  src="../assets/van.png" style="width: 150%; height :20%"></b-img>
   <figcaption class="figure-caption">City Tours Car Hire</figcaption>
-  <button type="button" class="btn btn-light">Book Now</button>
-    </figure>
-    </b-col>
+  <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Book Now</a>
+    </figure></div>
+  
   </div>
-</b-row>
-
-</b-container>
 </div>
 </template>
 

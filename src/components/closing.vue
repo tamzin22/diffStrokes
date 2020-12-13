@@ -12,9 +12,9 @@
          <p>With over 30 years of experience in servicing the Kenyan transport, we bring to you a totally new experience in exploring the Kenyan Safaris.</p>
          
          <div class="col-md-12 mb-4 white-text text-center">
-         <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Safari Car Hire</a>
-         <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Luxury Car Hire</a>
-         <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">City Tours</a>
+         <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Safari Car Hire</a>
+         <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Luxury Car Hire</a>
+         <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">City Tours</a>
          </div>
          <p> ..</p>
          <p> ..</p>

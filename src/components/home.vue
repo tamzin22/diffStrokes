@@ -19,10 +19,10 @@
 to Explore Kenyan Safaris</p>
 <p class="card-text">With over 30 years of experience in servicing the Kenyan transport, we bring to you
 a totally new experience in exploring the Kenyan Safaris.</p>
-<b-nav id="navy">
-<div class="safari"><b-nav-item href="#1">Safari Car Hire</b-nav-item></div>
-<div class="luxury"><b-nav-item href="#2">Luxury Car Hire</b-nav-item></div>
-<div class="tours"><b-nav-item href="#3">City Tours</b-nav-item></div>
+<b-nav id="navy" style="color:white">
+<div class="safari"> <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Safari Car Hire</a></div>
+<div class="luxury"> <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Luxury Car Hire</a></div>
+<div class="tours"><a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">City Tours</a></div>
 </b-nav>
 
   </div>
