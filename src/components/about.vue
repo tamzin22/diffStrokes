@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
          <b-nav id="nav">
     <img src="../assets/lion.png" alt="Logo" style="width:40px;">
 <div class="top-left"><b-nav-item href="#1">Home</b-nav-item></div>

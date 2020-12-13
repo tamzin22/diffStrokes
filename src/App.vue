@@ -1,10 +1,14 @@
 <template>
   <div id="app" class="container-fluid">
+    <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
   <div container p-3 my-3 border>
   <home />
   <about/>
   <description />
   <services />
+  <offers/>
+  <formFill/>
+  <offers />
     </div>
    </div>
 </template>
@@ -14,6 +18,8 @@ import home from './components/home.vue'
 import about from './components/about.vue'
 import services from './components/services.vue'
 import description from './components/description.vue'
+import offers from './components/offeredServices.vue'
+import FormFill from './components/formFill.vue'
 
 
 
@@ -25,6 +31,8 @@ export default {
     about,
     services,
     description,
+    offers,
+    FormFill,
     
   }
 }
@@ -42,6 +50,10 @@ import default{
   text-align: center;
   color: #2c3e50;
  
+}
+.full-width-div {
+    width: 100%;
+    left: 0;
 }
 
 </style>
