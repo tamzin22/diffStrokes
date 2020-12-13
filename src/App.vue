@@ -9,8 +9,8 @@
   <offers/>
   <formFill/>
   <offers />
-    </div>
-   </div>
+  <closing />
+   </div></div>
 </template>
 
 <script>
@@ -20,6 +20,7 @@ import services from './components/services.vue'
 import description from './components/description.vue'
 import offers from './components/offeredServices.vue'
 import FormFill from './components/formFill.vue'
+import Closing from './components/closing.vue'
 
 
 
@@ -33,6 +34,7 @@ export default {
     description,
     offers,
     FormFill,
+    Closing,
     
   }
 }
@@ -55,5 +57,4 @@ import default{
     width: 100%;
     left: 0;
 }
-
 </style>

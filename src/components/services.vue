@@ -6,7 +6,7 @@
   <div col-md-12>
     <b-col>
   <figure class="figure">
-    <b-img  src="../assets/twocars.png" style="width: 30%; height :20%" class="pull-left" alt="car"></b-img>
+    <b-img  src="../assets/twocars.png" style="width: 30%; height :20%" class="pull-left" alt=""></b-img>
      <figcaption class="figure-caption">Safari Car Hire</figcaption>
      <button type="button" class="btn btn-light">Book Now</button>
     </figure>
