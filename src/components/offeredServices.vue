@@ -1,57 +1,52 @@
 <template>
-
- <div class="full-width-div">
-    <div class="thumbnail" style="border:none; background:#c19a6b; text-align: left">
-             <div class="col-sm-18 col-md-18 col-xs-24 float-right image-container ">   
-            <img src="../assets/safariVan.png" class="saf" style="width:50%; alignment: left; margin-top:30px">
-             </div>
-    <div class="col-sm-18 col-md-18 col-xs-24 "> 
-     <h1 style="color:white">What we offer</h1>
-     <hr>
-    <ul class='vertical-align' style="font-size:10px; color:#03225C;color:white">
+ <div class="container-fluid">
+  <div class="row">
+   
+    <div class="col-lg">
+      <h1>What we offer</h1>
+      <hr>
+    <ul class='vertical-align text-left'>
         <li>A refrigerator - To keep you cool and hydrated throughout your journey.</li>
         <li>Free WiFi - So that you can share your experience with Family & Friends & Social media.</li>
         <li>Free Snacks.</li>
         <li>Binoculars - To enable you get amazing views of scenery and wildlife.</li>
         <li>A complimentary in board, super zoom camera to capture every memory and take it back home with you.</li>
     </ul>
-    </div> 
-         <div class="col-sm-32 col-md-32 col-xs-32 container-fluid" style="background-color:#455859">
-         <div >
-             <h3 style="text-align:center;color:white;">Get in touch with us today</h3>
-         <div class="col-sm-18 col-md-18 col-xs-24 float-right image-container "> 
-         <b-img src="../assets/phoneIcon.png" style="width:3%" ></b-img>
-         </div>
-         <div class="col-sm-18 col-md-18 col-xs-24 container-fluid ">
-         <p style="color:white">+254 732 743333</p>
-         </div>
-          </div>
-         </div>
-         <b-row>
-  <div col-md-32>
-    <b-col>
-  <figure class="figure">
+    </div>
+     <div class="col-lg">
+      <img src="../assets/safariVan.png" class="saf" style="width:50%; alignment: left; margin-top:30px">
+    </div>
+  </div>
+  <div class="row" style="background-color:#455859;height:100px">
+    <h3 style="">Get in touch with us today</h3>
+    
+    <b-img src="../assets/phoneIcon.png" style="width:2%" >+254 732 743333</b-img>
+    
+  </div>
+  
+  <div class="row">
+    <div class="col-lg">
+      <figure class="figure">
     <b-img  src="../assets/lion.png" style="width: 30%; height :20%" class="pull-left" alt="car"></b-img>
      <figcaption class="figure-caption">Copyright © 2020 Diff Strokes <br>All rights reserved</figcaption>
     </figure>
-    </b-col>
-  <b-col>
-    <h1>Address</h1>
-    <p>5th Avenue Parklands,Nairobi, Kenya</p>
-    </b-col>
-     <b-col>
-    <h1>Contacts</h1>
-    <p>Call us: +254 732 743333 <br>Kenya Email: info@diffstrokes.com</p>
-    </b-col>
-    <b-col>
-        <b-button style="backgroung-color:white">BOOK TODAY</b-button>
-    </b-col>
-  </div>
-    </b-row>
-            </div>
     </div>
+    <div class="col-lg">
+      <h1>Address</h1>
+    <p>5th Avenue Parklands,Nairobi, Kenya</p>
+    </div>
+    <div class="col-lg">
+      <h1>Contacts</h1>
+    <p>Call us: +254 732 743333 <br>Kenya Email: info@diffstrokes.com</p>
+    </div>
+    <div class="col-lg">
+      <b-button style="backgroung-color:white">BOOK TODAY</b-button>
 
-    </template>
+    </div>
+  </div>
+ </div>
+   
+</template>
 
 <script>
 export default {
@@ -59,5 +54,15 @@ export default {
 }
 </script>
 <style>
-  
+.row div{
+  padding: 20px 10px;
+  background-color:#a0785a;
+  color: white;
+  font-size:20px;
+
+}
+.h3{
+  background-color: #455859;
+  text-align      : center;
+}
 </style>
