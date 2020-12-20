@@ -2,7 +2,7 @@
  <div class="container-fluid">
   <div class="row">
    
-    <div class="col-lg">
+    <div class="col-lg" >
       <h1>What we offer</h1>
       <hr>
     <ul class='vertical-align text-left'>
