@@ -1,20 +1,21 @@
 <template>
   <div class="container-fluid" >
-    <div class="row">
-      <div class="col-lg" style="background-color:white !important">
+    <h1>Our Services</h1>
+    <div class="row justify-content-md">
+      <div class="col-md 4" style="background-color:white !important">
         <figure class="figure ">
-    <img  src="../assets/twocars.png" style="width: 600px; height :20%;" >
+    <img  src="../assets/twocars.png" style="width: 600px;" >
      <figcaption class="figure-caption">Safari Car Hire</figcaption>
      <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Book Now</a>
     </figure></div>
-    <div class="col-lg" style="background-color:white !important">
+    <div class="col-md" style="background-color:white !important">
       <figure>
-    <img  src="../assets/wedcar.png">
+    <img  src="../assets/wedcar.png" >
     <figcaption class="figure-caption">Luxury Car Hire</figcaption>
     <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Book Now</a>
     </figure>
     </div>
-    <div class="col-lg" style="background-color:white !important">
+    <div class="col-md" style="background-color:white !important">
           <figure>
   <img  src="../assets/van.png" style="width: 500px; height :20%;">
   <figcaption class="figure-caption">City Tours Car Hire</figcaption>
@@ -32,9 +33,5 @@ export default {
 }
 </script>
 <style >
- .img {
-  display: block;
-  max-width: 100%;
-  height: auto;
- }
+
 </style>

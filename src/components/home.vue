@@ -1,82 +1,40 @@
 <template>
-<div class="container-fluid" >
-  
-     
-<div class="row" style="margin-top:20px"  >
-<div class="card-navba" >
-<b-nav id="nav" >
-<div class="top-left position-absolute"><b-nav-item href="#1">Home</b-nav-item></div>
-<div class="about position-absolute"><b-nav-item href="#2">About Us</b-nav-item></div>
-<div class="inTouch"><b-nav-item href="#3">Get in Touch</b-nav-item></div>
-<div class="contact"><b-nav-item href="#4">+254 732 743333</b-nav-item></div>
-<div class="book"><b-nav-item href="#5">Book Now</b-nav-item></div>
-<div class="login"><b-nav-item href="#6">Login</b-nav-item></div>
-</b-nav>
-<img alt="placeholder" src="../assets/giraffe.png" class="img-thumbnail" style="width: 100%; border:solid; " >
 
-<p class= "par">Karibu Diff Strokes</p>
-<p class="card-text">A New Experience
+<div  class="container-fluid banner">
+ <a class="navbar-brand navbar-expand-lg "><img alt="placeholder" src="../assets/lion.png" style="position:absolute;top:80px;width:100px;left:90px;"></a>
+ <nav class="nav mr-1000 mx-200">
+   <a class="nav-link" href="#1">Home</a>
+   <a class="nav-link" href="#2">About Us</a>
+   <a class="nav-link" href="#3">Get in Touch</a>
+ </nav>
+ <div class="nav justify-content-end mx-100">
+  <a class="btn btn-outline-dark wow fadeInDown mx-2" data-wow-delay="0.4s">+254 732 743333</a>
+  <a class="btn btn-outline-dark wow fadeInDown mx-2" data-wow-delay="0.4s">Book Now</a>
+  <a class="btn btn-outline-dark wow fadeInDown " data-wow-delay="0.4s">Login</a>
+</div>
+  <p>Karibu Diff Strokes
+A New Experience
 to Explore Kenyan Safaris</p>
-<p class="card-text">With over 30 years of experience in servicing the Kenyan transport, we bring to you
+<p>With over 30 years of experience in servicing the Kenyan transport, we bring to you
 a totally new experience in exploring the Kenyan Safaris.</p>
-<b-nav id="navy" style="color:white">
-<div class="safari"> <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Safari Car Hire</a></div>
-<div class="luxury"> <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Luxury Car Hire</a></div>
-<div class="tours"><a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">City Tours</a></div>
-</b-nav>
-
   </div>
-</div>
-
-</div>
-
 </template>
 
 <script>
- export default{
- name : "home"
- }
+export default {
+  name:"home"
+}
 </script>
 
 <style>
- .safari {
-  position: absolute;
-  top: 800px;
-  left: 100px;
-  color:white;
-}
-.luxury {
-  position: absolute;
-  top: 800px;
-  left: 400px;
-  color:white;
-}
-.tours{
-  position: absolute;
-  top: 800px;
-  left: 800px;
-  color:white;
-}
-.saf{
-  margin-left: 50%;
-}
-.top-left{
-  position: absolute;
-  top: 100px;
-  left: 300px;
-  color:white;
-}
-.about{
-  position: absolute;
-  top: 100px;
-  left: 400px;
-  color:white;
-}
+ .banner{
+   background-image: url('../assets/giraffe.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 20px;
+   padding: 20px 10px;
+   border: solid;
+   height: 100vh;
+ }
 
-.inTouch{
-  position: absolute;
-  top: 100px;
-  left: 500px;
-  color:white;
-}
 </style>

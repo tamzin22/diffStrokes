@@ -53,9 +53,6 @@ import default{
   color: #2c3e50;
  
 }
-.full-width-div {
-    width: 100%;
-    left: 0;
-}
+
 
 </style>

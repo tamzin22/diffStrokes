@@ -1,6 +1,9 @@
 <template>
  <div class="container-fluid">
-  <div class="row">
+  <div class="row"  style= "padding: 20px 10px;
+  background-color:#a0785a;
+  color: white;
+  font-size:20px;">
    
     <div class="col-lg" >
       <h1>What we offer</h1>
@@ -24,22 +27,22 @@
     
   </div>
   
-  <div class="row">
-    <div class="col-lg">
+  <div class="row" style="background-color:#a0785a;height:300px;color: white; ">
+    <div class="col-lg" style="margin-top:50px">
       <figure class="figure">
     <b-img  src="../assets/lion.png" style="width: 30%; height :20%" class="pull-left" alt="car"></b-img>
-     <figcaption class="figure-caption">Copyright © 2020 Diff Strokes <br>All rights reserved</figcaption>
+     <figcaption class="figure-caption" style="color: white;">Copyright © 2020 Diff Strokes <br>All rights reserved</figcaption>
     </figure>
     </div>
-    <div class="col-lg">
+    <div class="col-lg" style="margin-top:50px">
       <h1>Address</h1>
     <p>5th Avenue Parklands,Nairobi, Kenya</p>
     </div>
-    <div class="col-lg">
+    <div class="col-lg" style="margin-top:50px">
       <h1>Contacts</h1>
     <p>Call us: +254 732 743333 <br>Kenya Email: info@diffstrokes.com</p>
     </div>
-    <div class="col-lg">
+    <div class="col-lg" style="margin-top:50px">
       <b-button style="backgroung-color:white">BOOK TODAY</b-button>
 
     </div>
@@ -55,10 +58,7 @@ export default {
 </script>
 <style>
 .row div{
-  padding: 20px 10px;
-  background-color:#a0785a;
-  color: white;
-  font-size:20px;
+
 
 }
 .h3{

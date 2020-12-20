@@ -9,7 +9,7 @@
                the Kenyan Safaris.
                Our vehicles are designed to give you a comfortable journey,
                while still getting the experience of the Kenyan safaris.</p>
-    <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Get in touch</a>
+    <a class="btn btn-outline-dark wow fadeInDown mx-5" data-wow-delay="0.4s">Get in touch</a>
     <a class="btn btn-outline-dark wow fadeInDown" data-wow-delay="0.4s">Call: +254 732 743333</a>
             </div>
             <div class="col-md"  style="background-color:white !important">
