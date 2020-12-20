@@ -10,8 +10,11 @@
 <div class="login"><b-nav-item href="#6">Login</b-nav-item></div>
 </b-nav>
    <img alt="Vue logo" src="../assets/cars.png" class="img-thumbnail" style="width: 100%;"> 
- 
-   <form class="card">
+   
+  <div class="card col-md-8 col-md-8 col-m-8" style="margin-top:-50px;">
+    <div class="row">
+      <div class="col-md">
+  <form >
   <div class="form-row justify-content-center">
     <div class="form-group col-md-6 ">
       <label for="inputName4">Name</label>
@@ -51,7 +54,15 @@
       <button type="submit" class="btn btn-grey">Submit</button>
   </div>
    </form>
-   
+      </div>
+      <div class="col-md" style="background-color:grey;">
+         <h1>Contact Information</h1>
+         <p>+254 732 743333</p>
+         <p>info@diffstrokes.com</p>
+         <img src="../assets/lion.png" alt="Logo" >
+      </div>
+      </div>
+   </div>
     </div>
 </template>
 <script>
